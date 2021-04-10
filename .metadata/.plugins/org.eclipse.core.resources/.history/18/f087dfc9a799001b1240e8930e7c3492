@@ -1,0 +1,24 @@
+package quintoEjercicio;
+
+public class Vendedor extends Empleado {
+
+	private static int porcenComision;
+	private int totalVentas;
+	public static int getPorcenComision() {
+		return porcenComision;
+	}
+	public void setPorcenComision(int porcenComision) {
+		this.porcenComision = porcenComision;
+	}
+	public int getTotalVentas() {
+		return totalVentas;
+	}
+	public void setTotalVentas(int totalVentas) {
+		this.totalVentas = totalVentas;
+	}
+	
+	public double getSueldo() {
+		
+		return getSueldoBase() + (getPorcenComision() * getTotalVentas()/100);
+	}
+}

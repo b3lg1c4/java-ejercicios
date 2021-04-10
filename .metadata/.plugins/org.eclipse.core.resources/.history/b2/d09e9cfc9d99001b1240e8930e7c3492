@@ -1,0 +1,7 @@
+package quintoEjercicio;
+
+public class Vendedor extends Empleado {
+
+	private int porcenComision;
+	private int totalVentas;
+}

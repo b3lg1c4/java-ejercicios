@@ -1,0 +1,22 @@
+package segundoEjercicio;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Main {
+
+
+	private static String[] getPalabras(String[] palabras){
+		
+	};
+
+
+	public static void main(String[] args) {
+
+		String[] palabras = new String[10];
+		
+		palabras = getPalabras(palabras);
+
+	}
+
+}

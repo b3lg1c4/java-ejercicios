@@ -1,0 +1,27 @@
+package cuartoEjercicio;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	static Scanner input = new Scanner(System.in);
+	int SIZE = 5;
+	
+	private static int[] getEnteros(int[] enteros) {
+		
+		for(int i=0;i<SIZE;i++) {
+			
+		};
+	};
+
+	public static void main(String[] args) {
+
+		int entero = input.nextInt();
+		int[] enteros = new int[SIZE];
+		enteros = getEnteros(enteros);
+		
+		
+
+	}
+
+}

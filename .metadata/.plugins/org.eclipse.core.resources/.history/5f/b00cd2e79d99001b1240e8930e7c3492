@@ -1,0 +1,8 @@
+package quintoEjercicio;
+
+public class Administrativo extends Empleado {
+	
+	private int hsMes;
+	private int hsExtra;
+
+}

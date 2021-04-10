@@ -1,0 +1,27 @@
+package ejercicios;
+
+
+import java.util.Scanner;
+
+public class Main {
+	
+	
+
+	private static String[] getRandomPalabras(String[] palabras) {
+		
+		
+		
+		return palabras;
+	};
+	
+	public static void main(String[] args) {
+		
+		
+		String[] palabras = new String[10];
+		palabras = getRandomPalabras(palabras);
+		
+		
+
+	}
+
+}

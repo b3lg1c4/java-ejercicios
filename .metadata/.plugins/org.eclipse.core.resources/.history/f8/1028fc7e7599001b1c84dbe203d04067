@@ -1,0 +1,36 @@
+package ejercicios;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Main {
+
+	private static ArrayList<String> getRandomPalabras(ArrayList<String> palabras) {
+
+		Scanner input = new Scanner(System.in);
+		String palabra;
+
+		for (int i = 0; i < 10; i++) {
+			palabra = input.nextLine();
+			palabras.add(palabra);
+		}
+		;
+
+		return palabras;
+	};
+
+	private static ArrayList<String> getInvertedPalabras(ArrayList<String> palabras) {
+		
+		return palabras;
+	};
+
+	public static void main(String[] args) {
+
+		ArrayList<String> palabras = new ArrayList<String>();
+		palabras = getRandomPalabras(palabras);
+		palabras = getInvertedPalabras(palabras);
+		System.out.println(palabras);
+
+	}
+
+}
