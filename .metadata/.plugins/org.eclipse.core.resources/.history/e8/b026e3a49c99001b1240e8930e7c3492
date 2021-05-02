@@ -1,5 +1,0 @@
-package quintoEjercicio;
-
-public class Vendedor extends Empleado {
-
-}

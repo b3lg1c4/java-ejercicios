@@ -35,7 +35,7 @@ public class Main {
 	};
 
 	private static void cargarAdministrativo(Administrativo administrativo) {
-		
+
 		System.out.println("Horas Extra:");
 		administrativo.setHsExtra(intScanner.nextInt());
 		System.out.println("Horas Mes:");
@@ -76,9 +76,9 @@ public class Main {
 
 		return empleados;
 	};
-	
+
 	private static void mostrarEmpleados(Empleado[] empleados) {
-		for(Empleado empleado: empleados) {
+		for (Empleado empleado : empleados) {
 			try {
 				System.out.println(empleado.getDni());
 				System.out.println(empleado.getNombre());
@@ -86,12 +86,13 @@ public class Main {
 				System.out.println(empleado.getSueldo());
 				System.out.println("----------------------------");
 			}
-			
-			catch(Exception e){
-				
+
+			catch (Exception e) {
+
 			}
 
-		};
+		}
+		;
 	};
 
 	public static void main(String[] args) {
